@@ -22,6 +22,7 @@
 #
 
 DEVICE_PATH := device/xiaomi/lavender
+BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sdm660
