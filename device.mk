@@ -154,6 +154,10 @@ PRODUCT_PACKAGES += \
     cneapiclient \
     com.quicinc.cne
 
+# Signapk
+PRODUCT_HOST_PACKAGES += \
+    signapk
+	
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl:64 \
