@@ -432,6 +432,12 @@ PRODUCT_PACKAGES += \
     libgui_vendor \
     libstdc++.vendor
 
+# Binder
+PRODUCT_PACKAGES += \
+    libhwbinder \
+    libhwbinder.vendor \
+	libhidltransport
+
 # Wifi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
