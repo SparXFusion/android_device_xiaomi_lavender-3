@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/mokee_lavender.mk
+    $(LOCAL_DIR)/revengeos_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    mokee_lavender-user \
-    mokee_lavender-userdebug \
-    mokee_lavender-eng
+    revengeos_lavender-user \
+    revengeos_lavender-userdebug \
+    revengeos_lavender-eng

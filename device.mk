@@ -28,11 +28,10 @@ $(call inherit-product, vendor/xiaomi/lavender/lavender-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-mokee
+    $(LOCAL_PATH)/overlay 
 
-PRODUCT_ENFORCE_RRO_TARGETS := \
-    framework-res
+#PRODUCT_ENFORCE_RRO_TARGETS := \
+#    framework-res
 
 # Soong
 PRODUCT_SOONG_NAMESPACES += \
@@ -83,8 +82,7 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2160
-TARGET_SCREEN_WIDTH := 1080
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Alipay
 PRODUCT_PACKAGES += \

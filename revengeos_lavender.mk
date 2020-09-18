@@ -26,9 +26,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product, device/xiaomi/lavender/device.mk)
 
 # Inherit some common Mokee stuff.
-$(call inherit-product, vendor/mokee/config/common_full_phone.mk)
+$(call inherit-product, vendor/revengeos/config/common.mk)
 
-PRODUCT_NAME := mokee_lavender
+PRODUCT_NAME := revengeos_lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := lavender
 PRODUCT_MANUFACTURER := Xiaomi
